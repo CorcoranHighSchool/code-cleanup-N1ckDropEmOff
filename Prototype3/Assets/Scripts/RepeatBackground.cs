@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿
 using UnityEngine;
 
 public class RepeatBackground : MonoBehaviour
@@ -21,6 +20,7 @@ public class RepeatBackground : MonoBehaviour
     void Update()
     {
         //if we have gone past our reset position, re position
+        private const string 
         if(transform.position.x < startPos.x - repeatWidth)
         {
             transform.position = startPos;
